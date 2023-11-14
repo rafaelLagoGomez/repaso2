@@ -22,3 +22,4 @@ console.log(myPoint2.calcularQuadrant());
 console.log(myPoint3.calcularQuadrant());
 console.log(myPoint4.calcularQuadrant());
 console.log(myPoint5.calcularQuadrant());
+// falta reto 4  - dudas con Rúben compi o Rubén profe

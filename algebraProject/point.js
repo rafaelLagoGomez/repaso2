@@ -1,6 +1,8 @@
 "use strict";
-// ***RETO1: Clase Point con Typescript*** (ver en PDF enunciandos)
-// ***RETO2: Métodos de Distancias*** (ver en PDF enunciandos)
+// ***RETO1: Clase Point con Typescript*** (ver en PDF enunciados)
+// ***RETO2: Métodos de Distancias*** (ver en PDF enunciados)
+// ***RETO3: Método Calcular Cuadrante*** (ver en PDF enunciados)
+// ***RETO4: Calcula el Punto más cercano*** (ver en PDF enunciados)
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Point = void 0;
 var Point = /** @class */ (function () {
@@ -51,3 +53,4 @@ var Point = /** @class */ (function () {
     return Point;
 }());
 exports.Point = Point;
+// falta reto 4  - dudas con Rúben compi o Rubén profe
