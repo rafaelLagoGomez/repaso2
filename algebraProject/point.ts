@@ -42,4 +42,17 @@ export class Point {
         return Math.sqrt(distanceX ** 2 + distanceY ** 2);
     }
 
+    public calcularQuadrant(): number {
+        if (this.x === 0 && this.y === 0) {
+            return 0
+        } else if (this.x >= 0 && this.y >= 0) {
+            return 1
+        } else if (this.x < 0 && this.y >= 0) {
+            return 2
+        } else if (this.x < 0 && this.y < 0) {
+            return 3
+        } else if (this.x >= 0 && this.y < 0) {
+            return 4
+        }
+    }
 }
