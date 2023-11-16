@@ -46,9 +46,8 @@ var Point = /** @class */ (function () {
         else if (this.x < 0 && this.y < 0) {
             return 3;
         }
-        else if (this.x >= 0 && this.y < 0) {
+        else
             return 4;
-        }
     };
     Point.prototype.calculateNearest = function (anotherPoints) {
         var nearestPoint = anotherPoints[0];
