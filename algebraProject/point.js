@@ -50,7 +50,18 @@ var Point = /** @class */ (function () {
             return 4;
         }
     };
+    Point.prototype.calculateNearest = function (anotherPoints) {
+        var nearestPoint = anotherPoints[0];
+        var nearestDistance = this.calculateDistance(nearestPoint);
+        for (var i = 1; i < anotherPoints.length; i++) {
+            var resultDistance = this.calculateDistance(anotherPoints[i]);
+            if (resultDistance < nearestDistance) {
+                nearestDistance = resultDistance;
+                nearestPoint = anotherPoints[i];
+            }
+        }
+        return nearestPoint;
+    };
     return Point;
 }());
 exports.Point = Point;
-// falta reto 4  - dudas con Rúben compi o Rubén profe

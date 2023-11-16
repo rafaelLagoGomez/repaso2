@@ -1,5 +1,5 @@
 
-// ***RETO5: Calcula el Punto más cercano*** (ver en PDF enunciandos)
+// ***RETO5: CLASE TRIANGULE CON TYPESCRIPT*** (ver en PDF enunciandos)
 
 import { Point } from "./point";
 

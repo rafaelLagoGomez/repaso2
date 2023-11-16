@@ -57,6 +57,20 @@ export class Point {
             return 4
         }
     }
+
+    calculateNearest(anotherPoints: Point[]): Point {
+        let nearestPoint = anotherPoints[0];
+        let nearestDistance = this.calculateDistance(nearestPoint);
+
+        for (let i = 1; i < anotherPoints.length; i++) {
+            const resultDistance = this.calculateDistance(anotherPoints[i]);
+            if (resultDistance < nearestDistance) {
+                nearestDistance = resultDistance;
+                nearestPoint = anotherPoints[i];
+            }
+        }
+        return nearestPoint;
+    }
 }
 
-// falta reto 4  - dudas con Rúben compi o Rubén profe
+

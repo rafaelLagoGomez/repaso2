@@ -13,7 +13,7 @@ console.log(myPoint.toString());
 console.log(myPoint.distanceToOrigin());
 var myNewPoint = new point_1.Point(12, 4);
 console.log(myPoint.calculateDistance(myNewPoint));
-// COMPROBACIÓN METODOS RETO3
+// COMPROBACIÓN METODO RETO3
 var myPoint2 = new point_1.Point(0, 2);
 var myPoint3 = new point_1.Point(-5, 4);
 var myPoint4 = new point_1.Point(-6, -15);
@@ -22,4 +22,11 @@ console.log(myPoint2.calcularQuadrant());
 console.log(myPoint3.calcularQuadrant());
 console.log(myPoint4.calcularQuadrant());
 console.log(myPoint5.calcularQuadrant());
-// falta reto 4  - dudas con Rúben compi o Rubén profe
+// COMPROBACIÓN METODO RETO4
+var point1 = new point_1.Point(0, 0);
+var point2 = new point_1.Point(1, 1);
+var point3 = new point_1.Point(2, 2);
+var point4 = new point_1.Point(3, 3);
+var points = [point1, point2, point3, point4];
+var nearestPoint = point1.calculateNearest(points);
+console.log(nearestPoint);

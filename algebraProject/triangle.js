@@ -1,5 +1,5 @@
 "use strict";
-// ***RETO5: Calcula el Punto más cercano*** (ver en PDF enunciandos)
+// ***RETO5: CLASE TRIANGULE CON TYPESCRIPT*** (ver en PDF enunciandos)
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Triangle = void 0;
 var Triangle = /** @class */ (function () {
